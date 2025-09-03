@@ -55,7 +55,7 @@ def registrar_prestamo():
     equipos[equipo]["disponible"] = False
     
     # Muestra mensaje de confirmación del préstamo
-    print(f"✅ Préstamo registrado: {usuario} tomó {equipo} el {fecha}")
+    print(f"Préstamo registrado: {usuario} tomó {equipo} el {fecha}")
 
 def devolver_equipo():
     """
@@ -77,7 +77,7 @@ def devolver_equipo():
     # Cambia el estado del equipo a disponible
     equipos[equipo]["disponible"] = True
     # Muestra mensaje de confirmación de devolución
-    print(f"✅ Devolución registrada: {equipo} está ahora disponible")
+    print(f"Devolución registrada: {equipo} está ahora disponible")
 
 def ver_historial():
     """
@@ -130,7 +130,7 @@ def agregar_equipo():
     }
     
     # Muestra mensaje de confirmación de agregado
-    print(f"✅ Nuevo equipo agregado: {nuevo_equipo}")
+    print(f"Nuevo equipo agregado: {nuevo_equipo}")
 
 def menu():
     """
